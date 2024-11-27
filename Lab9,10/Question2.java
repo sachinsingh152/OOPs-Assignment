@@ -34,7 +34,7 @@ public class Question2 {
 	            // Adjust database credentials
 	            String url = "jdbc:mysql://localhost:3306/java";
 	            String user = "root";
-	            String password = "sachinsingh4";
+	            String password = "";
 	            return DriverManager.getConnection(url, user, password);
 	        } catch (SQLException e) {
 	            e.printStackTrace();
