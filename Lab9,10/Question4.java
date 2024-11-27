@@ -15,7 +15,7 @@ public class Question4 {
     // Database connection details
     private final String URL = "jdbc:mysql://localhost:3306/JAVA";
     private final String USER = "root";
-    private final String PASSWORD = "sachinsingh4";
+    private final String PASSWORD = "";
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(Question4::new);
